@@ -348,20 +348,19 @@ else {
 
 			<!-- CONTENT FOR THE INFOWINDOW -->
 			var contentString = '<div id="content">'+
-									'<div id="siteNotice">'+
-									'</div>'+
-									'<h5 id="firstHeading" class="firstHeading"><?php echo $name ?></h5>'+
-									'<b>Tweet it:</b> <a href="https://twitter.com/share?url=http://data.lohud.com/foodieadventure&text=I am headed to <?php echo $meal ?> at <?php echo $newname ?> in <?php echo $county ?> for %23HVRW! It&#39;s my @lohud %23Foodie Adventure! @ValleyTable" target="_blank"><img src="../images/32-twitter.png" width="20" title="Tweet your dining plans"></a>'+									
-									'<div id="bodyContent">'+
-									'<b>Cuisine: </b><?php echo $cuisine ?><br> ' +
-									'<b>Address: </b><?php echo $address ?><br>' +
-									'<b>Phone: </b><a href="tel:<?php echo $phone ?>"><?php echo $phone ?></a><br> ' +
-									'<b>Lunch? </b> <?php echo $lunch ?> | <b>Dinner? </b> <?php echo $dinner ?> <br> ' +
-									'<?php if(empty($menu)) { echo "";} else { echo "<b>Menu: </b><a href=$menu target=_blank>Tap for PDF</a><br>" ;} ?>' +
-									'<b>Near train:</b> <?php echo $transportation ?><br> ' +
-									'<?php if(empty($website)) { echo "";} else { echo "<b>Web: </b><a href=$website target=_blank>$website</a><br>" ;} ?>' +									
-									'</div>'+
-									'</div>';
+					'<div id="siteNotice">'+
+					'</div>'+
+					'<h5 id="firstHeading" class="firstHeading"><?php echo $name ?></h5>'+
+					'<b>Tweet it:</b> <a href="https://twitter.com/share?url=http://data.lohud.com/foodieadventure&text=I am headed to <?php echo $meal ?> at <?php echo $newname ?> in <?php echo $county ?> for %23HVRW! It&#39;s my @lohud %23Foodie Adventure! @ValleyTable" target="_blank"><img src="../images/32-twitter.png" width="20" title="Tweet your dining plans"></a>'+														'<div id="bodyContent">'+
+					'<b>Cuisine: </b><?php echo $cuisine ?><br> ' +
+					'<b>Address: </b><?php echo $address ?><br>' +
+					'<b>Phone: </b><a href="tel:<?php echo $phone ?>"><?php echo $phone ?></a><br> ' +
+					'<b>Lunch? </b> <?php echo $lunch ?> | <b>Dinner? </b> <?php echo $dinner ?> <br> ' +
+					'<?php if(empty($menu)) { echo "";} else { echo "<b>Menu: </b><a href=$menu target=_blank>Tap for PDF</a><br>" ;} ?>' +
+					'<b>Near train:</b> <?php echo $transportation ?><br> ' +
+					'<?php if(empty($website)) { echo "";} else { echo "<b>Web: </b><a href=$website target=_blank>$website</a><br>" ;} ?>' +									
+					'</div>'+
+					'</div>';
 			
 			<!-- CREATE THE INFOWINDOW AND PASS THE CONTENT TO IT -->
 			var infowindow = new google.maps.InfoWindow({
@@ -393,27 +392,27 @@ else {
         </script>
 <style>
 #logo {
-margin-top: 5px;
+	margin-top: 5px;
 }
 
 #headtext {
-font-style: bold;
-margin-top: 0;
-margin-bottom: 10px;
-font-size: 36px !important;
+	font-style: bold;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 36px !important;
 }
 
 .socialbuttons {
-margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 #hvrwpic {
-padding: 5px;
-width: 150px
+	padding: 5px;
+	width: 150px
 }
 
 .footertext {
-text-align: center;
+	text-align: center;
 }
 </style>
 
