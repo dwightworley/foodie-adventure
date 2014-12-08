@@ -72,70 +72,61 @@ $ulster = $row[0];
 
 <style>
 
-
-
 #counties {
-margin-top: 5px;
+	margin-top: 5px;
 }
 
 #foodform {
-background-image: url("images/dinner2.jpg");
+	background-image: url("images/dinner2.jpg");
 
 }
 
 @media screen and (max-width: 530px) {
 
-#foodform {
-background-image: url("images/food2.jpg");
+	#foodform {
+	
+		background-image: url("images/food2.jpg");
+
+	}
 
 }
-
-
-
-
-}
-
-
-
-
 
 #logo {
-margin-top: 5px;
+	margin-top: 5px;
 }
 
 #headtext {
-font-weight: bold;
-margin-top: 0;
-margin-bottom: 10px;
-font-size: 36px !important;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 36px !important;
 }
 
 .socialbuttons {
-margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1025px) {
 
-#mobilelabel {display: none;}
+	#mobilelabel {display: none;}
 
 
-}
+	}
 
 @media screen and (max-width: 1024px) {
 
-#mobiledesktop {display: none; }
-
+	#mobiledesktop {display: none; }
 
 }
 
 #hvrwpic {
-padding: 5px;
-padding-right: 0;
-width: 150px
+	padding: 5px;
+	padding-right: 0;
+	width: 150px
 }
 
 .footertext {
-text-align: center;
+	text-align: center;
 }
 </style>
 
@@ -211,13 +202,13 @@ text-align: center;
                 <th>Cuisine</th>
                 <th>County</th>
                 <th>Menu</th>
-				<th>Lunch</th>
+		<th>Lunch</th>
                 <th>Dinner</th>
-				<th>Near train</th>
+		<th>Near train</th>
                 <th>Web</th>
-				<th>Address</th>
-				<th>Phone</th>
-				<th>Map</th>
+		<th>Address</th>
+		<th>Phone</th>
+		<th>Map</th>
             </tr>
         </thead>
  
